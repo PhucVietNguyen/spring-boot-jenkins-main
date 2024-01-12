@@ -16,5 +16,10 @@ public class DemoController {
   @GetMapping("/hello")
   public String hello() {
     return "hello jenkins!";
-  }sss
+  }
+
+  @GetMapping("/success")
+  public String success() {
+    return "success!";
+  }
 }
